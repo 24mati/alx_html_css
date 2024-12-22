@@ -1,8 +1,9 @@
 .come{
     background-image: url(Object.png
     );
+    background-repeat: no-repeat;
     width: auto;
-    height: 1700px;
+    height: 1800px;
 }
 header {
     padding: 10px 20px;
@@ -96,10 +97,9 @@ nav ul li a {
 .pros-learn {
     text-align: center;
     padding: 50px 20px;
-    width: auto;
-height: 100px;
-    /* background-color: #071629;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);*/
+   
+     background-color: #071629;
+   
 }
 
 /* Section Title */
@@ -116,6 +116,9 @@ height: 100px;
     justify-content: center;
     flex-wrap: wrap; /* Ensures responsiveness for smaller screens */
     gap: 20px; /* Space between profiles */
+    background-color: #071629;
+    width: auto;
+    color: #ffffff;
 }
 
 /* Individual Profile Card */
@@ -146,14 +149,14 @@ height: 100px;
 .pros h3 {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #222;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
 /* Profile Description */
 .pros p {
     font-size: 0.9rem;
-    color: #666;
+    color: #ffffff;
 }
 .part_1_testimonials {
     border: none;
