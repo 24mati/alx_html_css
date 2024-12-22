@@ -1,0 +1,356 @@
+.come{
+    background-image: url(Object.png
+    );
+    width: auto;
+    height: auto;
+}
+header {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+nav img {
+    height: 50px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.main_part {
+   
+}
+.button {
+    text-align: center;
+    padding: 50px 20px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh; /* Full screen section */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Title Styling */
+#Get {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Subtext Styling */
+.button span {
+    display: flex;
+    font-size: 1.2rem;
+    margin: 5px;
+    color: #ccc;
+    font-weight: 500;
+}
+
+/* Button Styling */
+#REGISTER {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #6c63ff; /* Vibrant purple */
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#REGISTER:hover {
+    background-color: #4e47c2; /* Darker purple */
+}
+.button .spans-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;}
+
+/* Responsive Design */
+
+
+/* Section Container */
+.pros-learn {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Title */
+#Learn {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Profiles Container */
+.pros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensures responsiveness for smaller screens */
+    gap: 20px; /* Space between profiles */
+}
+
+/* Individual Profile Card */
+.pros > div {
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pros > div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile Image */
+.pros img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+/* Profile Name */
+.pros h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+/* Profile Description */
+.pros p {
+    font-size: 0.9rem;
+    color: #666;
+}
+.part_1_testimonials {
+    border: none;
+    background-color: #C271FF;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+.text {
+    text-align: center;
+    background-color:#C271FF;
+    width: 730px;
+    height: 150px;
+    margin: 30px 20px 15px 20px;
+    padding: 30px 20px 15px;
+    
+
+}
+.avatar{
+    display: flex;
+    width: 160px;
+    height: 160px;
+   margin: auto;
+   padding: 0px;
+    
+
+
+}
+ .h333 {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    margin: 0.5px;
+    padding: 0.5px;
+    gap: 0.2rem;
+    justify-content: flex-start;
+    grid-auto-columns: 6px;
+    text-align: start;
+    font-family: 'sans-serif',Source Sans Pro;
+    color:#ffffff;
+    font-size: 22px;
+}
+
+.text , blockquote  {
+    justify-content: flex-start;
+}
+.part_2_tutorials{
+    background-color: rgb(251, 255, 255);
+    
+    justify-content: center;
+    width: 1228px;
+    height: 450px;
+    margin: 80px;
+    padding: 6px;
+    
+
+
+}
+.continer{
+display: flex;
+justify-content: space-between;
+}
+#Most{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: 071629;
+    gap: 20px;
+    font-family: sans-serif;
+
+
+}
+.fa-solid fa-star{
+    display: flex;
+}
+#popular{
+    color: #C271FF;
+
+}
+.stare{
+    display: flex;
+    color: #C271FF;
+    
+}
+.let{
+    display: flex ;
+   color: #C271FF;
+    justify-content: space-between;
+}
+.tuto{
+
+    width: 215px;
+    height: 315px;
+    margin: 0px;
+    padding: 30px;
+    border: solid;
+    
+
+}
+.part_3_free_membership{
+    width: 1440px;
+    height: 502px;
+    background-color: #071629;
+    margin: 0px;
+    padding: 0px;
+}
+#Free{
+    display: non;
+    text-align: center;
+    color: #ffffff;
+    padding: 70px 0.5px 0.1rem 0.5px ;
+}
+.dot{
+    flex-direction: row;
+    display: flex;
+   margin: 134px ;
+   padding: auto;
+   justify-content: space-between;
+}
+.dott{
+    flex-direction: column;
+    border: solid;
+    width: 257px;
+    height: 153px;
+    color: #ffffff;
+    text-align: center;
+
+}
+.REGISTER2{
+    margin: 0.1% ;
+    color: #ffffff;
+    background-color: #C271FF;
+}
+footer {
+    background-color:#071629;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+.footer-start{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.footer-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+div img {
+    height: 50px;
+    
+}
+div i {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+#pp {
+    text-align: center;
+    color: #ffffff;
+    font-size: 22px;
+}
+.continer{
+    background-color: bisque;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    padding: 20px;
+   
+   }
+   .discription{
+       background-color: rgb(178, 171, 184);
+       
+   
+   }
+   #div1 , h3{
+       display: flex;
+       
+       margin: 40px;
+       text-justify: auto;
+       justify-content: center;
+   
+   }
+    #head-part {
+       color: rgb(109, 108, 182);
+       text-align: center;
+       display:ruby-text-container;
+       flex-direction: row;
+       text-justify: auto;
+       justify-content: center;
+   }
